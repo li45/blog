@@ -1,3 +1,6 @@
+plugins:
+- hexo-generator-cname
+
 # Hexo Configuration
 ## Docs: http://zespia.tw/hexo/docs/configuration.html
 ## Source: https://github.com/tommy351/hexo/
@@ -79,7 +82,7 @@ disqus_shortname:
 # Extensions
 ## Plugins: https://github.com/tommy351/hexo/wiki/Plugins
 ## Themes: https://github.com/tommy351/hexo/wiki/Themes
-theme: landscape
+theme: light
 exclude_generator:
 
 # Markdown
@@ -97,4 +100,5 @@ markdown:
 ## Docs: http://zespia.tw/hexo/docs/deployment.html
 deploy:
   type: github
-  repository: http://github.com/li4li5li6/li4li5li6.github.io
+  repository: li4li5li6@github.com:li4li5li6/li4li5li6.github.io.git
+  branch: master
