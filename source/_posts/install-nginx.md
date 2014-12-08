@@ -6,6 +6,7 @@ tags: [linux,nginx,记录]
 安装步骤
 ---
 {% codeblock lang:shell%}
+
 	yum -y install pcre-devel openssl openssl-devel
 	cd /usr/local/src
 	wget http://nginx.org/download/nginx-0.7.68.tar.gz
@@ -14,6 +15,7 @@ tags: [linux,nginx,记录]
 	./configure --with-http_stub_status_module
 	make
 	make install
+	
 {% endcodeblock %}
 nginx_http_stub_status_module插件
 ---
